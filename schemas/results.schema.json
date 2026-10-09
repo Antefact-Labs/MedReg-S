@@ -1,0 +1,42 @@
+{
+  "$id": "https://raw.githubusercontent.com/Antefact-Labs/MedReg-S/main/schemas/results.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "benchmark": {
+      "type": "object"
+    },
+    "by_challenge_condition": {
+      "type": "object"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "inputs": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "primary_metric": {
+      "type": "object"
+    },
+    "run": {
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "1.0"
+    }
+  },
+  "required": [
+    "schema_version",
+    "benchmark",
+    "run",
+    "inputs",
+    "coverage",
+    "primary_metric",
+    "metrics",
+    "by_challenge_condition"
+  ],
+  "title": "MedReg score report",
+  "type": "object"
+}

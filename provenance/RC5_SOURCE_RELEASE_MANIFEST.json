@@ -1,0 +1,86 @@
+{
+  "release": "MedReg Synthetic Benchmark",
+  "version": "0.6.0-rc5",
+  "status": "ai-review-complete-license-pending",
+  "generated_on": "2026-10-07",
+  "data": {
+    "items": 2001,
+    "groups": 332,
+    "development_items": 1017,
+    "development_groups": 166,
+    "test_items": 984,
+    "test_groups": 166
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1036,
+      "sha256": "c14be0dd9aaf8196070806a46254d900f05f738720dd1a4a77fe314f5ca1360b"
+    },
+    {
+      "path": "data/development.jsonl",
+      "bytes": 14608127,
+      "sha256": "c20d05e7f35df0cb6a6e8c2aed5ddee16041839f1a8a6fd2bac897ca0e463c18"
+    },
+    {
+      "path": "data/test.jsonl",
+      "bytes": 14453954,
+      "sha256": "2e4be65c190cbae4972d580045561121cffa2554236074bae01cf68a54def423"
+    },
+    {
+      "path": "DATA_CARD.md",
+      "bytes": 2944,
+      "sha256": "c8b8e2017d70aea7ef283bc2608f00d809b8df7dfa9901e3a4f61260c3bd1242"
+    },
+    {
+      "path": "LICENSE_PENDING.md",
+      "bytes": 836,
+      "sha256": "3cb6f38c36eadced6cacb93f2dc64141580b197ca36d4e88ddf84c951dcbf7a8"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3001,
+      "sha256": "6347e200e4f4de8355b592343fccf0a564d30c38b7227fb37325d87b92fdfdb2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2782,
+      "sha256": "91d6f9909871da9f2a053ac87f4ff3a554cb8d6892d48b020cdf48fd40f50ffc"
+    },
+    {
+      "path": "schemas/item.schema.json",
+      "bytes": 6101,
+      "sha256": "f7334725132d444bbd301497f5ffbab02a8ec5024e42dd2a07248934544bb825"
+    },
+    {
+      "path": "tools/acceptance_checks.py",
+      "bytes": 22616,
+      "sha256": "6ed20e7591ff929063846bcaaeb39a9f9235c6bf7810ec89bfb7e0a1f115c374"
+    },
+    {
+      "path": "tools/additional_acceptance_checks.py",
+      "bytes": 21652,
+      "sha256": "dca1fdd71c826b9800d029c350011200d135ffeb66533cb36031af7e901160b0"
+    },
+    {
+      "path": "tools/validate.mjs",
+      "bytes": 1853,
+      "sha256": "01d51b48006efcac054ef96ff9cf7d10d6800ce12c40a71df84ed263e95faa1b"
+    },
+    {
+      "path": "verification/GATE_SUMMARY.md",
+      "bytes": 809,
+      "sha256": "2c1685c95feb3c31027b3358c72fa98e0cf3b94cd7fcc490ffb75c7ec47c9f11"
+    },
+    {
+      "path": "verification/RELEASE_AUDIT.json",
+      "bytes": 18074,
+      "sha256": "592c35548aced44d2dceb48db3c5188ab71d353abe3d9e72dba55b05e9944c84"
+    },
+    {
+      "path": "verification/SOURCE_PROVENANCE.json",
+      "bytes": 131236,
+      "sha256": "e6c0b7827ba12840562dd58e74ab3649f973bbeac9c1c1432fb603ca417665c7"
+    }
+  ]
+}
